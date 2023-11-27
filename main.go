@@ -6,8 +6,10 @@
 // }
 package main
 
-import "log"
-import "/cmd"
+import (
+	"log"
+	"utils-go/cmd"
+)
 
 func main() {
 	err := cmd.Execute()
